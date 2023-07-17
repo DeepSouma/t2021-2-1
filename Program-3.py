@@ -1,0 +1,17 @@
+a=int(input())
+cnt=0
+i=0
+if(a%2==0):
+    cnt=1
+    while(cnt!=a):
+        if(i%2!=0):
+            print(i)
+            cnt+=1
+        i+=1
+else:
+    cnt=0
+    while(cnt!=a):
+        if(i%2!=0):
+            print(i)
+            cnt+=1
+        i+=1
